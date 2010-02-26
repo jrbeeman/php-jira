@@ -1,0 +1,8 @@
+Jira to Emacs org-mode via PHP SOAP client
+
+* Outstanding tasks
+
+** TODO Limit number of results for a filter
+May require using Jira 4.0, as getIssuesFromFilterWithLimit seems to fail, even though it's part of the spec for Jira 3.13
+
+** TODO Test with Jira 4.0 and JQL
