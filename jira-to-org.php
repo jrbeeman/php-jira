@@ -9,13 +9,7 @@
  * $ php -f jira.php > my-file.org
  */
 
-
-/**
- * Setup
- */
-include_once('./jira-to-org.config.php');
-$client = new SoapClient($wsdl);
-$token = $client->login($username, $password);
+include_once('./bootstrap.php');
 
 // General server info
 $server = $client->getServerInfo($token);
@@ -80,5 +74,6 @@ foreach ($filters as $filter) {
 }
 
 // Output
-print implode("\n", $out);
-print "\n";
+dump();
+
+?>
