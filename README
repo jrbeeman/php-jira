@@ -1,5 +1,10 @@
 Jira to Emacs org-mode via PHP SOAP client
 
+* Setup
+
+1. Copy config.sample.php to config.php and update settings
+2. Run the scripts with the usage instructions printed at the top of each script.
+
 * Outstanding tasks
 
 ** TODO Limit number of results for a filter

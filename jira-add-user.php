@@ -3,6 +3,9 @@
 /**
  * @file
  * Add a user to JIRA, using a random password
+ *
+ * Usage:
+ * $ php -f jira-add-user.php username fullname email [password]
  */
 include_once('./bootstrap.php');
 
