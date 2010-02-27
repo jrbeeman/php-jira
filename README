@@ -1,4 +1,4 @@
-Jira to Emacs org-mode via PHP SOAP client
+PHP CLI interface to Jira via PHP SOAP client
 
 * Setup
 
